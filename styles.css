@@ -1,0 +1,395 @@
+body {
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;                                            
+    margin: 0px;
+    padding: 0;
+    color: #ededed;
+}
+
+
+.navbar {
+    background: linear-gradient(#000, transparent);
+    color: #ededed;
+    font-size: 20px;
+    padding: 10px 0;
+    padding-bottom: 120px;
+    margin-bottom: 20px; 
+    display: flexbox;
+}
+
+.navbar-brand {
+    color: #ededed;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px; 
+    margin-left: 20px;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+.nav-item{
+    margin-left: 35px;
+}
+
+.navbar-nav .nav-link {
+    color: #ededed;
+    margin-right: 15px; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(135, 156, 163);
+}
+
+.navbar-toggler-icon {
+    color: #ededed;
+    padding: 5px; 
+}
+
+.form-control {
+    margin-left: 35px;
+    background-color: transparent;
+    border: 2px;
+    color: #ededed;
+    padding: 10px; 
+    margin-right: 10px; 
+    
+}
+
+.form-control:enabled{
+    background-color: rgba(0, 0, 0, 0.473);
+    color: #ededed;
+    border: 2px;
+}
+
+.form-control:focus{
+    border-color: #ededed;
+}
+.btn-outline-dark {
+    border-color: #ededed;
+    width:auto;
+    color: #ededed;
+    padding: 10px 20px; 
+}
+
+.btn-outline-dark:hover {
+    background-color: #ededed;
+    color: #1c4d48;
+}
+
+.search-form {
+    display: flexbox;
+    margin-top: 10px; 
+}
+
+.search-form .form-control {
+    border-radius: 0;
+    margin-right: 10px; 
+}
+
+.search-form .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -1px;
+    margin-right: 10px; 
+}
+#myCarousel {
+    max-width: 100%;
+    z-index: 1;
+}
+.active{
+    transition: 2s;
+}
+.active:hover{
+    transform: scale(1.1);
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #000;
+}
+
+a{
+    color: #ededed;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ededed;
+}
+.container .mt-4{
+    background-color: #000;
+}
+.container-footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: transparent;
+}
+.color-option {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.color-option:hover {
+    border-width: 2px;
+}
+
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+    background-color: #0c0c0c;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #1f1f1f;
+
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #ededed;
+    border: none;
+    color: #1c4d48;
+}
+
+.btn-primary:hover {
+    background-color: rgb(135, 156, 163);
+    color: #1c4d48;
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+.card {
+    margin: 10px;
+}
+
+.features{
+    background-image: url(images/other/news_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.feature-icon {
+    font-size: 36px;
+    color: #ededed; 
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.feature-icon i {
+    padding: 10px;
+    color: #ededed; 
+    font-size: 36px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.feature-icon i:hover {
+    color: rgb(135, 156, 163); 
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+p {
+    font-size: 16px;
+    color: #ededed;
+    text-decoration: none;
+}
+
+.col-md-3 {
+    margin-bottom: 20px;
+}
+
+
+.customizer {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+}
+
+.option {
+    margin-bottom: 15px;
+    
+}
+
+label {
+    display: block;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    background-color: #163d39;
+    color: #ededed;
+}
+
+.result {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#guitarImage {
+    padding-left: 75px;
+}
+
+#playPauseBtn{
+    margin-left: 35px;
+    margin-right: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500PX;
+    background-image: linear-gradient(#000, transparent), url(images/other/news_bg.jpg);
+    background-size: cover;
+}
+
+#interactiveButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.modal-content{
+    background-color: #0c0c0c;
+}
+
+#colorOptions{
+    padding-left: 70px;
+}
+
+.open-button{
+    background-color: #ededed;
+    color:#000;
+    z-index: 2;
+    padding:16px 20px;
+    border-radius: 50%;
+    border:none;
+    cursor:pointer;
+    position: fixed;
+    bottom:23px;
+    right:28px;
+  }
+  
+  .chat-popup{
+    display:none;
+    position: fixed;
+    bottom:0;
+    right:15px;
+    z-index:9;
+  }
+  
+  .form-container{
+    max-width:300px;
+    padding: 10px;
+    background-color: #0c0c0c;
+    border-radius: 8px;
+    border: #ededed;
+  }
+  
+  .form-container textarea{
+    width:100%;
+    padding:15px;
+    margin:5px 0 22px 0;
+    border:none;
+    background: #f1f1f1;
+    border-radius: 8px;
+    resize:none;
+    min-height:200px;
+  }
+
+  .form-container textarea:focus{
+    background-color:#ddd;
+    outline:none;
+  }
+  
+  .form-container .btn:hover, .open-button:hover{
+    opacity:1;
+  }
+
+  .rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+  
+@media (max-width: 767px) {
+    .col-md-3 {
+        text-align: center;
+    }
+}
+
